@@ -12,27 +12,7 @@ Para lograr una solución mantenible y reutilizable, se emplea la estructura de 
 
 ## Clonar el repositorio.
 ```
-git clone https://github.com/ivolato/Desafio-6-Ansible.git
+git clone https://github.com/ivolato/Desafio-7-terraform.git
 ```
 
-## Instalamos pipx en la maquina que usaremos para gestionar con Ansible.
-```
-sudo apt install pipx -y
-pipx ensurepath
-```
 
-## Instalamos Ansible.
-```
-pipx install --include-deps ansible
-```
-
-## Verificamos que se instalo correctamente Ansible.
-```
-ansible --version
-```
-
-## Asignarle permisos correspondientes a la key para acceder por ssh.
-```
-cd Desafio-6-Ansible/.ssh
-chmod 600 aws.pem
-```
