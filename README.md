@@ -1,14 +1,8 @@
 # Infraestructura en AWS con Terraform
-Este proyecto tiene como objetivo la implementación de un entorno automatizado para la instalación y configuración de un sitio web basado en WordPress, utilizando Ansible como herramienta de Configuration as Code (CaC).
-La solución está diseñada para ejecutarse sobre una instancia EC2 provista por AWS Academy, y busca facilitar el despliegue reproducible y modular del entorno web, incluyendo tanto el servidor web como sus dependencias.
-La arquitectura planteada incluye:
+Este trabajo tiene como objetivo recrear el Laboratorio 2 del Módulo 5 de AWS Academy utilizando Terraform para implementar Infraestructura como Código. Se construirá una VPC personalizada, se configurará un grupo de seguridad y se desplegará una instancia de EC2 con un servidor web en una subred de la VPC, siguiendo las consignas del laboratorio original.
 
-Instalación y configuración de PHP junto con sus extensiones necesarias.
-Instalación y configuración de MariaDB como base de datos local.
-Despliegue de WordPress
-
-
-Para lograr una solución mantenible y reutilizable, se emplea la estructura de roles en Ansible, permitiendo separar responsabilidades y mejorar la organización del código. Se divide de tres roles (Setup, Apache + Php + Wordpress , MySQL) a través de los que será gestionado, permitiendo escalabilidad y facilidad de mantenimiento.
+Debemos Implementar la siguiente infraestructura a través de Terraform.
+![Infra](infraestructura.png)
 
 ## Clonar el repositorio.
 ```
