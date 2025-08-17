@@ -15,4 +15,8 @@ Para lograr una solución mantenible y reutilizable, se emplea la estructura de 
 git clone https://github.com/ivolato/Desafio-7-terraform.git
 ```
 
-
+## Introducimos las credenciales que utilizara Terraform para conectarse a AWS
+```
+cd .aws
+nano credentials
+```
