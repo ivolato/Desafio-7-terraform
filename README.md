@@ -20,3 +20,16 @@ git clone https://github.com/ivolato/Desafio-7-terraform.git
 cd .aws
 nano credentials
 ```
+
+## Iniciamos el Proyecto de Terraform
+```
+cd environment/Desafio-7-terraform
+terraform init
+terraform plan
+```
+
+## Iniciamos la creacion de los recursos 
+```
+terraform apply
+```
+
